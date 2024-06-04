@@ -1,0 +1,5 @@
+[runner]
+magicEnabled = false
+
+[browser]
+gatherUsageStats = false
