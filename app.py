@@ -116,9 +116,6 @@ def format_quality(quality: int) -> str:
 st.set_page_config(
     page_title="낙하운동 시뮬레이터",
     page_icon=":apple:",
-    menu_items={
-        "About": "낙하운동 시뮬레이터",
-    },
 )
 
 state = st.session_state

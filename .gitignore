@@ -1,5 +1,13 @@
-# Virtual environment
-.venv/
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info
 
-# Video file
+# Virtual environments
+.venv
+
+# Video files
 video.mp4

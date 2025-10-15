@@ -1,18 +1,11 @@
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
-
-[tool.poetry]
-package-mode = false
-
-[tool.poetry.dependencies]
-python = "^3.12"
-matplotlib = "*"
-numpy = "*"
-streamlit = "*"
-
-[tool.poetry.group.dev.dependencies]
-matplotlib = "*"
-numpy = "*"
-ruff = "*"
-streamlit = "*"
+[project]
+name = "fallingsimulator"
+version = "1.0.0"
+description = "Simulate the motion of a falling object with and without air resistance."
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "matplotlib>=3.10.7",
+    "numpy>=2.3.3",
+    "streamlit>=1.50.0",
+]
